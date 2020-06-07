@@ -1,0 +1,110 @@
+//noinspection CssUnknownTarget
+@import "scss/var.scss";
+
+.channels-container {
+  padding: 37px 10px 6px 10px;
+  max-width: 1244px;
+  width: 100%;
+}
+
+.channels {
+  margin-bottom: 50px;
+  height: 710px;
+}
+
+.channel {
+  background: #F2F2F2;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px 20px 8px 20px;
+  color: $text-color;
+  margin-bottom: 16px;
+  @media (max-width: 768px) {
+    flex-wrap: wrap
+  }
+  @media (max-width: 425px) {
+    padding: 20px 10px 8px 10px;
+  }
+}
+
+.chanel-logo-container {
+  width: 31%;
+  position: relative;
+  @media (max-width: 1024px) {
+    width: 20%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+.channel-logo {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media (max-width: 768px) {
+    position: static;
+    transform: none;
+  }
+}
+
+.programs {
+  padding-left: 27px;
+}
+
+.program-title {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 4px;
+  padding-top: 2px;
+  @media (max-width: 425px) {
+    font-size: 18px;
+  }
+}
+
+.program-name {
+  padding-left: 21px;
+}
+
+.program {
+  display: flex;
+  @media (max-width: 425px) {
+    font-size: 14px
+  }
+
+  &:nth-child(even) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.current-program {
+  color: $main-active-color;
+}
+
+.track-vertical {
+  background: #F2F2F2;
+  border-radius: 2px;
+  height: 100%;
+  right: 0;
+  width: 8px !important;
+}
+
+.thumb-vertical {
+  background: #BDBDBD;
+  border-radius: 2px;
+  width: 4px !important;
+  margin: 0 auto;
+}
+
+.channel-container {
+  padding-right: 20px;
+  @media (max-width: 768px) {
+    padding: 0
+  }
+}

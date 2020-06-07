@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  font: inherit;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.fixed-container {
+  max-width: 1244px;
+  width: 100%;
+  padding-left:32px;
+  padding-right:32px;
+}
+
+@media (max-width: 768px) {
+  .fixed-container {
+    padding-left:10px;
+    padding-right:10px;
+  }
+}

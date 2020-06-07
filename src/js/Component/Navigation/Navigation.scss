@@ -1,0 +1,29 @@
+//noinspection CssUnknownTarget
+@import "scss/var.scss";
+
+.nav-container {
+  padding: 43px 5px 0 5px;
+  text-align: center;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 28px;
+  color: $text-color;
+  padding-bottom: 9px;
+  &:not(:last-child){
+    margin-right: 24px;
+  }
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+  @media (max-width: 425px) {
+    font-size: 22px;
+    padding-bottom: 5px;
+
+  }
+}
+
+.nav-item--active {
+  color: $main-active-color;
+  border-bottom: 2px solid #E5261E;
+}

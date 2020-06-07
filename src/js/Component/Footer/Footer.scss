@@ -1,0 +1,40 @@
+.footer {
+  background-color: #F2F2F2;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-logo {
+  width: 32px;
+  height: 71px;
+  margin-right: 40px;
+}
+
+.footer-info {
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media (max-width: 425px) {
+    font-size: 11px;
+  }
+}
+.phones {
+  @media (max-width: 425px) {
+    padding: 7px 0;  }
+}
+.site-address {
+  font-weight: 500;
+}
