@@ -42,6 +42,7 @@
 }
 
 .back {
+  background-size: contain;
   transition: 0.5s;
   transform: rotateY(180deg);
   //-ms-transform: rotateY(180deg);
