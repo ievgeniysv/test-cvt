@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import s from './Header.scss';
 import logoImg from 'pictures/logo.svg';
-import { useForm } from 'react-hook-form';
-const {useState} = require('react');
+import { useForm } from 'react-hook-form/dist/react-hook-form.ie11'
 
+const {useState} = require('react');
 
 export const Header = ({showPopup, isLogin, userName, logout, setUser}) => {
 

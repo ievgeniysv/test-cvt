@@ -14,11 +14,11 @@ export const Films = (props) => {
 
         <div className={s["flip-container"]}>
           <div className={s["flipper"]}>
+
             <div className={s["front"]}>
               <img src={cat} alt="" className={s['film-img']}/>
             </div>
-            <div className={s["back"]}>
-              <img src={cat} alt="" className={s['film-img-back']}/>
+            <div className={s["back"]} style={{ backgroundImage: `url(${cat})`}}>
               <p className={s['back-text']}>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году,
                 на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое
                 место в стремительно меняющемся мире киноиндустрии.
@@ -37,8 +37,7 @@ export const Films = (props) => {
             <div className={s["front"]}>
               <img src={batman} alt="" className={s['film-img']}/>
             </div>
-            <div className={s["back"]}>
-              <img src={batman} alt="" className={s['film-img-back']}/>
+            <div className={s["back"]} style={{ backgroundImage: `url(${batman})`}}>
               <p className={s['back-text']}>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году,
                 на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое
                 место в стремительно меняющемся мире киноиндустрии.
@@ -56,8 +55,7 @@ export const Films = (props) => {
             <div className={s["front"]}>
               <img src={hollywood} alt="" className={s['film-img']}/>
             </div>
-            <div className={s["back"]}>
-              <img src={hollywood} alt="" className={s['film-img-back']}/>
+            <div className={s["back"]} style={{ backgroundImage: `url(${hollywood})`}}>
               <p className={s['back-text']}>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году,
                 на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое
                 место в стремительно меняющемся мире киноиндустрии.
@@ -75,8 +73,7 @@ export const Films = (props) => {
             <div className={s["front"]}>
               <img src={stripper} alt="" className={s['film-img']}/>
             </div>
-            <div className={s["back"]}>
-              <img src={stripper} alt="" className={s['film-img-back']}/>
+            <div className={s["back"]} style={{ backgroundImage: `url(${stripper})`}}>
               <p className={s['back-text']}>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году,
                 на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое
                 место в стремительно меняющемся мире киноиндустрии.

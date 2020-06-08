@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import s from './Popup.scss';
-import { useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form/dist/react-hook-form.ie11'
+
 
 //Модальное окно. раобта с формой реализуется с помощью react-hook-form, настроена простая валидация, текстовые поля
 //обязательны для заполнения. После успешной отправки формы записываем данные в ls.
